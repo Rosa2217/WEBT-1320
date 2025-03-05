@@ -1,0 +1,150 @@
+/*Global Styles*/
+
+body {
+    background-color: #6E262A;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+img {
+    display: block;
+    margin:0 auto;
+    width: 50%;
+}
+
+#container {
+    background-color: #E99B99;
+}
+
+/*Desktop Styles*/
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid black;
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 2px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color: #F2A663;
+    }
+
+    hr {
+        display: flex;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+}
+
+/*Tablet Styles*/
+
+@media (min-width: 25px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 120px;
+        height: 25px;
+        line-height: 50px;
+        margin: 50px;
+    }
+
+    .movie_post {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    #banner {
+        width: 35%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .poster {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .posters {
+        width: 150%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+}
+
+/*Mobile Styles*/
+
+@media (min-width: 320px) {
+    nav {
+        background-color: #A01E20;
+        padding: 5px;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0 20px;
+        width: 125px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #CA5A58;
+        color: black;
+        margin-top: 5px;
+    }
+
+nav li a:hover {
+background-color: #EDBCB8;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    color: #BF2C38;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+}
